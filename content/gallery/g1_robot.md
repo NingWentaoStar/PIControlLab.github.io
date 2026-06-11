@@ -133,3 +133,7 @@ cd unitree_rl_lab
 <video src="/video/dance.mp4" controls width="640"></video>
 
 > **视频说明**: G1 机器人舞蹈演示
+
+## 相关研究
+
+- [基于强化学习的人形机器人运动控制研究](/research/rl-humanoid-locomotion/) — 基于本平台完成的平地行走与动作模仿控制研究，含 sim-to-real 部署验证。
