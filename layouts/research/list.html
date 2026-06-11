@@ -24,9 +24,13 @@
                         <h3><a href="/research/{{ .slug }}/">{{ .title }}</a></h3>
                         <p>{{ .summary }}</p>
                     </div>
-                    {{ if .image }}
+                    {{ if or .image .video }}
                     <div class="project-image">
+                        {{ if .video }}
+                        <video src="{{ .video }}" autoplay loop muted playsinline></video>
+                        {{ else }}
                         <img src="{{ .image }}" alt="{{ .title }}">
+                        {{ end }}
                     </div>
                     {{ end }}
                 </div>

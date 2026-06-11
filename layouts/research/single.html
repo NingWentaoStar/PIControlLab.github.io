@@ -13,6 +13,9 @@
                 {{ with .Date }}
                 <span class="publish-date">发布时间: {{ .Format "2006年1月2日" }}</span>
                 {{ end }}
+                {{ with .Params.contributor }}
+                <span class="contributor">主要完成人：{{ . }}</span>
+                {{ end }}
             </div>
         </header>
 

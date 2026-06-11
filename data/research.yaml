@@ -28,6 +28,12 @@ projects:
       featured: true
 
   RL:
+    - title: "基于强化学习的人形机器人运动控制研究"
+      slug: "rl-humanoid-locomotion"
+      summary: "本项目围绕人形机器人运动控制问题展开，研究对象为宇树G1人形机器人，主要目标是利用强化学习方法实现较为稳定、自然的平地行走控制，并进一步探索面向23自由度机器人模型的动作模仿控制。"
+      image: "/img/projects/rl-humanoid/0.png"
+      video: "/video/projects/rl-humanoid/locomotion.mp4"
+      featured: true
     - title: "分布式模型预测控制"
       slug: "distributed-mpc"
       summary: "针对大规模系统控制问题，我们开发了分布式模型预测控制算法，实现多智能体系统的协同控制，在保证系统性能的同时降低计算复杂度。"
